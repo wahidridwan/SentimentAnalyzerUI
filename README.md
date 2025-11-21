@@ -34,4 +34,4 @@ Each line of input text is analyzed separately, and the app displays:
 **Library:** TextBlob  
 
 
-![Demo Screenshot](demo_screenshot.png)
+![Screenshot](./screenshot.png)
