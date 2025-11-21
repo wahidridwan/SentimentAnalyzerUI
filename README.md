@@ -31,7 +31,4 @@ Each line of input text is analyzed separately, and the app displays:
 ---
 **Developed by:** Wahid Ridwan  
 **Language:** Python 3  
-**Library:** TextBlob  
-
-
-![Screenshot](./screenshot.png)
+**Library:** TextBlob 
