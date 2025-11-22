@@ -3,9 +3,6 @@
 A clean and user-friendly sentiment analysis application built with **Tkinter** and powered by **TextBlob**.  
 This mini project takes multi-line text input, analyzes each line individually, and generates instant results with sentiment polarity scores.
 
-![Screenshot](screenshot.png) <!-- Replace with your uploaded screenshot link -->
-
----
 
 ## ✨ Overview
 
