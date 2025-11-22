@@ -1,37 +1,105 @@
-# 🧠 Sentiment Analyzer (UI Based Mini Project)
+🧠 Sentiment Analyzer — UI Based Python Mini Project
 
-## 📸 Screenshot
-![Sentiment Analyzer UI](screenshot.png)
+A clean and user-friendly sentiment analysis application built with Tkinter and powered by TextBlob.
+This mini project takes multi-line text input, analyzes each line individually, and generates instant results with sentiment polarity scores.
 
-### 📋 Description
-This is a mini Python project with a graphical interface (Tkinter) that analyzes the sentiment of text using **TextBlob**.
+✨ Overview
 
-Each line of input text is analyzed separately, and the app displays:
-- Individual line sentiment (Positive / Negative / Neutral)
-- Polarity scores for each line
-- Overall average polarity and sentiment
+This application is designed for anyone who wants to quickly analyze sentiments such as:
 
-### 🚀 How to Run
-1. Install required library:
-   ```bash
-   pip install textblob
-   ```
+✔️ Positive
 
-2. Run the app:
-   ```bash
-   python main.py
-   ```
+✔️ Negative
 
-3. Type multiple lines in the text box and click **Analyze Sentiment**.
+✔️ Neutral
 
-### 🧩 Features
-- Multi-line input support
-- Separate line-by-line sentiment results
-- Overall polarity and sentiment calculation
-- Clean Tkinter-based dark UI
+The app provides:
 
----
+Line-by-line sentiment classification
 
-**Developed by:** Wahid Ridwan  
-**Language:** Python 3  
-**Library:** TextBlob
+Polarity score for each line
+
+Overall average sentiment
+
+A modern, dark-themed Tkinter UI
+
+🚀 How to Run the Project
+1️⃣ Install Required Library
+
+Make sure you have Python installed. Then run:
+
+pip install textblob
+
+
+If textblob isn't downloaded earlier, run:
+
+python -m textblob.download_corpora
+
+2️⃣ Run the Application
+python main.py
+
+3️⃣ Use the App
+
+Type (or paste) multiple lines of text
+
+Click Analyze Sentiment
+
+View detailed sentiment results instantly
+
+🧩 Features at a Glance
+🔹 ✔ Multi-line Input Support
+
+Analyze multiple lines at once — useful for paragraphs, comments, reviews, or messages.
+
+🔹 ✔ Line-by-Line Sentiment Analysis
+
+Each line is processed individually for accurate results.
+
+🔹 ✔ Detailed Output
+
+Shows:
+
+Polarity score
+
+Sentiment category
+
+Overall sentiment summary
+
+🔹 ✔ Dark and Clean UI
+
+Modern GUI built with Tkinter for a clean user experience.
+
+🔹 ✔ Lightweight & Fast
+
+No heavy dependencies — runs instantly.
+
+📁 Project Structure (Sample)
+SentimentAnalyzerUI/
+│── main.py
+│── requirements.txt
+│── README.md
+└── screenshot.png (You will upload manually)
+
+🛠 Technologies Used
+Component	Used For
+Python 3	Main programming language
+Tkinter	GUI development
+TextBlob	Sentiment analysis engine
+📌 Future Improvements (Optional Ideas)
+
+You can add these later if you want:
+
+🔄 Save results as a text file
+
+🌐 Web-based version (Flask/Streamlit)
+
+📊 Graphical sentiment visualization
+
+🌙 Light/Dark theme switch
+
+🗂 Import text files for batch analysis
+
+👨‍💻 Developer
+
+Wahid Ridwan
+Built with ❤️ using Python & TextBlob.
